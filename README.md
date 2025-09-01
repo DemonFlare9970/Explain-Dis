@@ -1,4 +1,4 @@
-# Explain This
+# Explain Dis
 
 A full-stack web application that provides simplified explanations for PDFs, YouTube videos, and text content using AI.
 
