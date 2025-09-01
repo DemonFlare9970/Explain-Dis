@@ -6,9 +6,7 @@ const nextConfig = {
   images: {
     unoptimized: true
   },
-  // GitHub Pages serves from a subdirectory, so we need to set the base path
-  basePath: '/Explain-Dis',
-  assetPrefix: '/Explain-Dis/',
+  // Remove basePath for now to test without subdirectory
 }
 
 module.exports = nextConfig
