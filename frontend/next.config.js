@@ -7,8 +7,8 @@ const nextConfig = {
     unoptimized: true
   },
   // GitHub Pages serves from a subdirectory, so we need to set the base path
-  basePath: process.env.NODE_ENV === 'production' ? '/Explain-Dis' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/Explain-Dis/' : '',
+  basePath: '/Explain-Dis',
+  assetPrefix: '/Explain-Dis/',
 }
 
 module.exports = nextConfig
