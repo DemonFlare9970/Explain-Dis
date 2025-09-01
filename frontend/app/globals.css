@@ -23,9 +23,38 @@ a {
 ::-webkit-scrollbar {
     width: 8px;
     background: #e5e7eb;
-}qq
+}
 
 ::-webkit-scrollbar-thumb {
     background: #d1d5db;
     border-radius: 4px;
+}
+
+/* Custom styles for the primary color theme */
+.bg-primary-600 {
+    background-color: #2563eb;
+}
+
+.bg-primary-700 {
+    background-color: #1d4ed8;
+}
+
+.bg-primary-50 {
+    background-color: #eff6ff;
+}
+
+.text-primary-600 {
+    color: #2563eb;
+}
+
+.border-primary-500 {
+    border-color: #3b82f6;
+}
+
+.focus\:ring-primary-500:focus {
+    --tw-ring-color: #3b82f6;
+}
+
+.focus\:border-primary-500:focus {
+    border-color: #3b82f6;
 }
